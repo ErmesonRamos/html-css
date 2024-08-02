@@ -6,9 +6,8 @@ body{
 
 .container {
     display: flex;
-    flex-direction: row;
     gap: 10px;
-    height: 600px;
+    align-items: center;
     background-color: #6366f1;
 }
 
@@ -18,3 +17,9 @@ body{
     background-color: #38bdf8;
     text-align: center;
 }
+
+#item3 {
+    flex-basis: 100px;
+}
+
+
